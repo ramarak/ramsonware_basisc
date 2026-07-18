@@ -152,7 +152,7 @@ If you skip step 2, the encrypted data is effectively lost: Fernet uses a random
 
 ---
 
-## Customization notes
+## ⚠️ Customization notes
 
 - **Target directory:** both scripts use `os.walk("")` (current directory). Change that path only if you understand the blast radius.
 - **Encrypt filter:** in `ramsonware.py`, `file.endswith((".txt"))`.
@@ -161,7 +161,7 @@ If you skip step 2, the encrypted data is effectively lost: Fernet uses a random
 
 ---
 
-## What this project does *not* do
+## ⚠️ What this project does *not* do
 
 - No network C2, ransom note UI, persistence, or privilege escalation.
 - No key escrow, key file on disk, or recovery mechanism.
@@ -170,7 +170,7 @@ If you skip step 2, the encrypted data is effectively lost: Fernet uses a random
 
 ---
 
-## Safe testing checklist
+## ⚠️ Safe testing checklist
 
 1. Work only inside this repository (or a disposable copy of it).
 2. Confirm you only care about the sample `.txt` files (or recreate them).
