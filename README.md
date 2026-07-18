@@ -144,7 +144,7 @@ decryptor.py KEY  →  restores .txt files from .locked
 | Step | Action |
 |------|--------|
 | 1 | Run `python ramsonware.py` |
-| 2 | **Immediately copy the printed `key:` value** |
+| 2 | **⚠️ Immediately copy the printed `key:` value** |
 | 3 | Keep that key until you finish testing |
 | 4 | Run `python decryptor.py "<key>"` to unlock |
 
